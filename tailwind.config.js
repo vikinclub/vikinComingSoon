@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#ffd60a', // Replace with your desired primary color hex code
+      },
+    },
   },
   plugins: [],
 }
