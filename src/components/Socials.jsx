@@ -3,7 +3,7 @@ import React from 'react'
 
 import { FacebookOutlined, InstagramOutlined, TwitterOutlined } from "@ant-design/icons"
 
-const iconStyles = "flex items-center justify-center text-white hover:!text-primary text-lg lg:text-3xl"
+const iconStyles = "flex items-center justify-center text-white hover:!text-primary text-lg lg:text-2xl"
 
 const socialAccounts = [
     {

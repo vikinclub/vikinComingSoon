@@ -24,9 +24,9 @@ const SubscribeForm = () => {
                     ]}
 
                 >
-                    <Input allowClear size='large' className='border-2 border-primary placeholder:text-black' placeholder='Join the riders list' suffix={
+                    <Input allowClear size='large' className='border-2 border-primary placeholder:text-black' placeholder='Enter your email' suffix={
                         <Button htmlType="submit" className='bg-primary text-white font-bold' size='large'>
-                            Join the ride
+                           Get Invite
                         </Button>
                     } />
                 </Form.Item>
