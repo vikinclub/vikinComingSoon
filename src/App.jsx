@@ -31,7 +31,7 @@ function App() {
                                     </p>
                                 </>
                             ) : (
-                                <div className='mb-[180px] space-y-2'>
+                                <div className='mb-[50px] space-y-2'>
                                     <h1 className='text-4xl lg:text-8xl text-primary tracking-wider'>
                                         Vikin.club
                                     </h1>
