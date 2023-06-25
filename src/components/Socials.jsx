@@ -28,7 +28,7 @@ const Socials = ({ className }) => {
         <div className={`flex ${className}`}>
             {
                 socialAccounts.map(social => (
-                    <Tooltip title={social.name} placement='bottom'>
+                    <Tooltip title={social.name} placement='bottom' key={social.name}>
                         <Button type='link' className={iconStyles} href={social.url}>{social.icon}</Button>
                     </Tooltip>
                 ))

@@ -4,48 +4,60 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  overflow-x: hidden !important;
-  font-family: 'Poppins', sans-serif !important;
+html,
+body {
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Abril Fatface', cursive !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Abril Fatface', cursive !important;
 }
 
 .fatface {
-  font-family: 'Abril Fatface', cursive !important;
+    font-family: 'Abril Fatface', cursive !important;
 }
 
 .main-container {
-  position: relative;
-  background-image: url("/bg-img.jpg");
-  background-color: #000;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
+    position: relative;
+    background-image: url('/bg-img.jpg');
+    background-color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 .z-index-max {
-  position: relative;
-  z-index: 99999;
+    position: relative;
+    z-index: 999;
+}
+
+:where(.css-dev-only-do-not-override-9xyu4d).ant-btn-primary {
+    color: #fff;
+    background-color: #000000;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.75);
 }
 
 @media screen and (max-width: 687px) {
-  .main-container {
-    background-image: url("/bg-img-mobile.jpg");
-  }
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+    .main-container {
+        background-image: url('/bg-img-mobile.jpg');
+    }
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
