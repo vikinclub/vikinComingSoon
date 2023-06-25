@@ -47,12 +47,6 @@ h6 {
     z-index: 999;
 }
 
-:where(.css-dev-only-do-not-override-9xyu4d).ant-btn-primary {
-    color: #fff;
-    background-color: #000000 !important;
-    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.75);
-}
-
 @media screen and (max-width: 687px) {
     .main-container {
         background-image: url('/bg-img-mobile.jpg');

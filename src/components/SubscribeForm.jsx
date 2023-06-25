@@ -91,7 +91,7 @@ const SubscribeForm = () => {
                         suffix={
                             <Button
                                 htmlType='submit'
-                                className='font-bold space-x-2'
+                                className='font-bold space-x-2 bg-black'
                                 type='primary'
                                 size='middle'
                                 onClick={() => {
@@ -124,7 +124,7 @@ const SubscribeForm = () => {
                 </p>
                 <div className='text-right space-x-3'>
                     <Button onClick={onModalClose}>Cancel</Button>
-                    <Button type='primary' onClick={onModalOkay}>
+                    <Button className='bg-black' type='primary' onClick={onModalOkay}>
                         Okay
                     </Button>
                 </div>
