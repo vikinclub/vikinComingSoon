@@ -8,6 +8,10 @@ export const router = createBrowserRouter([
     element: <LandingPage />,
   },
   {
+    path: "/survey",
+    element: <Survey />,
+  },
+  {
     path: "/admin/subscribers",
     element: <ProtectedRoute component={SubscribersListing} password={import.meta.env.VITE_SUBSCRIBERS_LISTING_PASSWORD} />,
   },
