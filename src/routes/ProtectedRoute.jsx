@@ -6,8 +6,6 @@ const ProtectedRoute = ({ component: Component, password }) => {
 
     const handleSubmit = (data) => {
         const { password: enteredPassword } = data
-console.log(import.meta.env.VITE_SUBSCRIBERS_LISTING_PASSWORD, password)
-        console.log(enteredPassword)
         if (enteredPassword === password) {
             setLoggedIn(true);
         } else {
