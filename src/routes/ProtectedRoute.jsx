@@ -18,7 +18,7 @@ const ProtectedRoute = ({ component: Component, password }) => {
     } else {
         return (
             <>
-                <Row className='h-screen bg-black' justify="center" align="middle">
+                <Row className='h-screen bg-black p-2' justify="center" align="middle">
                     <Col xs={24} md={12}>
                         <Form
                             name='routeValidator'
@@ -37,7 +37,7 @@ const ProtectedRoute = ({ component: Component, password }) => {
                                     },
                                 ]}
                             >
-                                <Input.Password placeholder='Enter paswword' allowClear />
+                                <Input.Password placeholder='Enter password' allowClear />
                             </Form.Item>
                             <Button className='w-full bg-primary hover:!bg-yellow-600 text-black' type='primary' htmlType='submit'>Submit</Button>
                         </Form>
