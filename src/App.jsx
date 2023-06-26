@@ -1,8 +1,6 @@
-import { Button, Col, ConfigProvider, Row } from 'antd';
+import { ConfigProvider } from 'antd';
 import { ThemeObj } from './AntDesignCustomTheme';
 import { useState } from 'react';
-import { Socials, SubscribeForm } from './components';
-import useWindowDimensions from './hooks/use-window-dimensions';
 import { RouterProvider } from 'react-router';
 import { router } from './routes/routes';
 
@@ -18,7 +16,7 @@ function App() {
                     },
                 }}
             >
-               <RouterProvider router={router} />
+                <RouterProvider router={router} />
             </ConfigProvider>
         </>
     );
