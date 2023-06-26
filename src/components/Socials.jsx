@@ -9,17 +9,17 @@ const socialAccounts = [
     {
         name: "Facebook",
         icon: <FacebookOutlined />,
-        url: "https://facebook.com"
+        url: "https://www.facebook.com/profile.php?id=100094091071869&mibextid=ZbWKwL"
     },
     {
         name: "Instagram",
         icon: <InstagramOutlined />,
-        url: "https://instagram.com"
+        url: "https://instagram.com/vikin.club?igshid=NGExMmI2YTkyZg=="
     },
     {
         name: "Twitter",
         icon: <TwitterOutlined />,
-        url: "https://twitter.com"
+        url: "https://twitter.com/Vikin_club?t=sFH6vNTT331g-2W3syWvTw&s=08"
     }
 ]
 
@@ -29,7 +29,7 @@ const Socials = ({ className }) => {
             {
                 socialAccounts.map(social => (
                     <Tooltip title={social.name} placement='bottom' key={social.name}>
-                        <Button type='link' className={iconStyles} href={social.url}>{social.icon}</Button>
+                        <Button type='link' target='_blank' className={iconStyles} href={social.url}>{social.icon}</Button>
                     </Tooltip>
                 ))
             }
